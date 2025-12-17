@@ -1,6 +1,6 @@
 /*
 Synthemica Website
-Author: chanaka Sanjaya Bandara
+Author: Chanaka Sanjaya Bandara
 Version: 1.0
 */
 /**
@@ -78,7 +78,7 @@ NORMALIZE
 ============================= */
 /**
  * Normalizing styles have been helped along thanks to the fine work of
- * Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+ * Chanaka Sanjaya Bandara https://chaana-00.github.io/SYNTHEMICA-WEBSITE/
  */
 html {
   font-family: sans-serif;
@@ -434,7 +434,7 @@ acronym {
 
 mark,
 ins {
-  background: #007acc;
+  background: #e01d3e;
   color: #fff;
   padding: 0.125em 0.25em;
   text-decoration: none;
@@ -685,7 +685,7 @@ dfn {
 }
 .section-heading:before {
   content: "";
-  border-top: 2px solid #e36600;
+  border-top: 2px solid #e01d3e;
   position: absolute;
   top: 0;
   left: 0;
@@ -829,7 +829,7 @@ blockquote {
 }
 
 .jumbo-heading {
-  color: #041e42;
+  color: #111111;
   font-size: 20px;
   position: relative;
 }
@@ -884,7 +884,7 @@ ul.bull li:before {
   display: inline-block;
   vertical-align: top;
   font-size: 14px;
-  color: #46c2ca;
+  color: #e01d3e;
 }
 
 ul.circle {
@@ -907,7 +907,7 @@ ul.circle li:before {
   display: inline-block;
   vertical-align: top;
   font-size: 7px;
-  color: #46c2ca;
+  color: #e01d3e;
 }
 
 .bgsection {
@@ -990,7 +990,7 @@ ul.circle li:before {
 .banner-page .breadcrumb > .active:hover,
 .banner-page .breadcrumb > li + li:before:hover,
 .banner-page .breadcrumb a:hover {
-  color: #46c2ca;
+  color: #e01d3e;
 }
 
 /* 2.5. CATEGORY MENU */
@@ -1002,7 +1002,7 @@ ul.circle li:before {
 .widget-title {
   font-size: 24px;
   font-weight: 700;
-  color: #041e42;
+  color: #111111;
   margin-bottom: 30px;
 }
 
@@ -1031,10 +1031,10 @@ ul.circle li:before {
   border-left: 5px solid transparent;
 }
 .category-nav li a:hover {
-  border-color: #e36600;
+  border-color: #e01d3e;
 }
 .category-nav li.active a {
-  border-color: #e36600;
+  border-color: #e01d3e;
 }
 
 .info-detail dl {
@@ -1174,7 +1174,7 @@ Back To Top Section
 }
 
 .btn-default:hover {
-  background-color: #041e42;
+  background-color: #111111;
 }
 
 .btn-cta {
@@ -1190,12 +1190,12 @@ Back To Top Section
   border-radius: 0;
 }
 .btn-cta:hover {
-  background-color: #46c2ca;
+  background-color: #e01d3e;
   color: #ffffff;
 }
 
 .navbar-main .btn-orange-cta:hover {
-  background-color: #041e42;
+  background-color: #111111;
   color: #ffffff;
 }
 
@@ -1203,12 +1203,12 @@ Back To Top Section
   background-color: #e01d3e;
 }
 .btn-primary:hover {
-  background-color: #041e42;
+  background-color: #111111;
   color: #ffffff;
 }
 
 .btn-secondary {
-  background-color: #041e42;
+  background-color: #111111;
 }
 .btn-secondary:hover {
   background-color: #e01d3e;
@@ -1216,8 +1216,8 @@ Back To Top Section
 }
 
 .btn-secondary.disabled {
-  background-color: #041e42;
-  border-color: #041e42;
+  background-color: #111111;
+  border-color: #111111;
 }
 
 .pagination {
@@ -1243,7 +1243,7 @@ Back To Top Section
 }
 .pagination > li > a:hover,
 .pagination > li > a.active {
-  background: #041e42;
+  background: #111111;
   color: #fff;
 }
 .pagination > li:first-child > a,
@@ -1257,7 +1257,7 @@ Back To Top Section
   border-bottom-right-radius: 0;
 }
 .pagination > .active > a {
-  background: #041e42;
+  background: #111111;
   color: #fff;
 }
 .pagination > .active > a,
@@ -1266,7 +1266,7 @@ Back To Top Section
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  background: #041e42;
+  background: #111111;
   color: #fff;
 }
 
@@ -1295,7 +1295,7 @@ Back To Top Section
 }
 .box-icon-1 .body-content {
   margin-left: 55px;
-  color: #041e42;
+  color: #111111;
   font-weight: 700;
 }
 .box-icon-1 .body-content .heading {
@@ -1322,14 +1322,14 @@ Back To Top Section
   color: #222222;
 }
 .box-icon-2 .body-content .heading {
-  color: #041e42;
+  color: #111111;
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: uppercase;
   font-weight: 700;
 }
 .box-icon-2:hover {
-  background-color: #46c2ca;
+  background-color: #e01d3e;
 }
 .box-icon-2:hover .icon,
 .box-icon-2:hover .body-content {
@@ -1347,7 +1347,7 @@ Back To Top Section
 }
 .box-icon-3 .icon {
   display: inline-block;
-  color: #041e42;
+  color: #111111;
   font-size: 50px;
   line-height: 43px;
   margin-bottom: 40px;
@@ -1356,7 +1356,7 @@ Back To Top Section
   color: #222222;
 }
 .box-icon-3 .body-content .heading {
-  color: #041e42;
+  color: #111111;
   margin-bottom: 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -1371,7 +1371,7 @@ Back To Top Section
   -webkit-transition: all 0.4s ease 0s !important;
   transition: all 0.4s ease 0s !important;
   opacity: 0;
-  color: #041e42;
+  color: #111111;
 }
 .box-icon-3:hover {
   background-color: #46c2ca;
@@ -1404,7 +1404,7 @@ Back To Top Section
   position: absolute;
   top: -1px;
   left: -1px;
-  background-color: #041e42;
+  background-color: #111111;
 }
 .box-icon-3 .line-t:after {
   content: "";
@@ -1414,7 +1414,7 @@ Back To Top Section
   position: absolute;
   top: -1px;
   right: -1px;
-  background-color: #041e42;
+  background-color: #111111;
 }
 .box-icon-3 .line-b {
   position: absolute;
@@ -1430,7 +1430,7 @@ Back To Top Section
   position: absolute;
   bottom: -1px;
   left: -1px;
-  background-color: #041e42;
+  background-color: #111111;
 }
 .box-icon-3 .line-b:after {
   content: "";
@@ -1440,7 +1440,7 @@ Back To Top Section
   position: absolute;
   bottom: -1px;
   right: -1px;
-  background-color: #041e42;
+  background-color: #111111;
 }
 
 /* 2.5. BOX ICON 4 */
@@ -1471,14 +1471,14 @@ Back To Top Section
   color: #222222;
 }
 .box-icon-4 .body-content .heading {
-  color: #041e42;
+  color: #111111;
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: uppercase;
   font-weight: 700;
 }
 .box-icon-4:hover {
-  background-color: #46c2ca;
+  background-color: #e01d3e;
 }
 .box-icon-4:hover .icon {
   right: 0;
@@ -1536,7 +1536,7 @@ Back To Top Section
   width: 100%;
 }
 .box-image-2 .blok-title {
-  color: #041e42;
+  color: #111111;
   font-size: 24px;
   font-weight: 400;
   margin-top: 30px;
@@ -1550,7 +1550,7 @@ Back To Top Section
 }
 .box-image-4 .media {
   overflow: hidden;
-  background-color: #041e42;
+  background-color: #111111;
   position: relative;
 }
 .box-image-4 .media img {
@@ -1578,7 +1578,7 @@ Back To Top Section
   width: -webkit-calc(100% - 20px);
   width: calc(100% - 20px);
   background-color: rgba(4, 30, 66, 0.4);
-  border: solid 10px #46c2ca;
+  border: solid 10px #e01d3e;
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
@@ -1628,7 +1628,7 @@ Back To Top Section
 }
 .box-image-3 .image {
   overflow: hidden;
-  background-color: #041e42;
+  background-color: #111111;
   position: relative;
 }
 .box-image-3 .image:before {
@@ -1687,13 +1687,13 @@ Back To Top Section
   margin-bottom: 20px;
 }
 .box-image-3:hover .blok-title {
-  color: #041e42;
+  color: #111111;
 }
 
 /* 2.8. BOX IMAGE 4 */
 .feature-box-8 {
   position: relative;
-  background-color: #041e42;
+  background-color: #111111;
   color: #ffffff;
   margin-bottom: 30px;
 }
@@ -1713,7 +1713,7 @@ Back To Top Section
   width: 84px;
   height: 84px;
   line-height: 100px;
-  background-color: #041e42;
+  background-color: #e01d3e;
   color: #ffffff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1745,17 +1745,17 @@ Back To Top Section
   -webkit-transition: all 0.4s ease 0s !important;
   transition: all 0.4s ease 0s !important;
   opacity: 0;
-  color: #041e42;
+  color: #111111;
 }
 .feature-box-8:hover {
-  background-color: #46c2ca;
+  background-color: #e01d3e;
   color: #000;
 }
 .feature-box-8:hover .icon-holder {
-  background-color: #46c2ca;
+  background-color: #e01d3e;
 }
 .feature-box-8:hover .title {
-  color: #041e42;
+  color: #111111;
 }
 .feature-box-8:hover .readmore {
   opacity: 1;
@@ -1770,7 +1770,7 @@ Back To Top Section
 }
 .box-testimony:before {
   content: "\f10e";
-  color: #e36600;
+  color: #e01d3e;
   font-family: FontAwesome;
   font-size: 60px;
   float: left;
@@ -1794,7 +1794,7 @@ Back To Top Section
   font-size: 24px;
   line-height: 34px;
   font-weight: 700;
-  color: #041e42;
+  color: #111111;
 }
 .box-testimony .quote-box .quote-name span {
   font-size: 12px;
@@ -1814,7 +1814,7 @@ Back To Top Section
   max-width: 255px;
   display: block;
   position: relative;
-  background-color: #041e42;
+  background-color: #111111;
 }
 .testimonial-1 .media img {
   -webkit-transform: scale(1, 1);
@@ -1839,7 +1839,7 @@ Back To Top Section
   color: #222222;
 }
 .testimonial-1 .title {
-  color: #041e42;
+  color: #111111;
   font-weight: 700;
   font-size: 16px;
 }
@@ -1857,7 +1857,7 @@ Back To Top Section
   margin-bottom: 30px;
   margin-left: 0;
   margin-bottom: 100px;
-  background-color: #041e42;
+  background-color: #111111;
 }
 .testimonial-2 .body {
   border: none;
@@ -1874,7 +1874,7 @@ Back To Top Section
   margin-top: -40px;
   float: right;
   min-width: 290px;
-  border-bottom: 2px solid #041e42;
+  border-bottom: 2px solid #111111;
   height: 90px;
   position: relative;
   z-index: 3;
@@ -1888,7 +1888,7 @@ Back To Top Section
   margin-left: 80px;
 }
 .testimonial-2 .info .title {
-  color: #041e42;
+  color: #111111;
   font-weight: 700;
   font-size: 16px;
 }
@@ -1900,10 +1900,10 @@ Back To Top Section
   margin-bottom: 20px;
 }
 .testimonial-2:hover {
-  background-color: #46c2ca;
+  background-color: #e01d3e;
 }
 .testimonial-2:hover .info {
-  border-color: #46c2ca;
+  border-color: #e01d3e;
 }
 
 /* TESTIMONIALS 3 */
@@ -1951,11 +1951,11 @@ Back To Top Section
 .box-team {
   border: 1px solid #eee;
   margin-bottom: 30px;
-  background-color: #041e42;
+  background-color: #111111;
   color: #fff;
 }
 .box-team:hover {
-  background-color: #041e42;
+  background-color: #111111;
 }
 .box-team:after {
   content: "";
@@ -1983,11 +1983,11 @@ Back To Top Section
 }
 .box-team .box-image .sosmed .fa {
   font-size: 18px;
-  color: #041e42;
+  color: #111111;
   padding: 0 20px;
 }
 .box-team .box-image .sosmed .fa:hover {
-  color: #46c2ca;
+  color: #e01d3e;
 }
 .box-team .body-content {
   float: left;
@@ -2001,7 +2001,7 @@ Back To Top Section
   margin-bottom: 0;
 }
 .box-team .body-content .position {
-  color: #46c2ca;
+  color: #e01d3e;
   font-size: 12px;
   font-style: italic;
 }
@@ -2033,19 +2033,19 @@ Back To Top Section
 }
 .box-statistic .icon {
   font-size: 36px;
-  color: #e36600;
+  color: #e01d3e;
   margin-bottom: 30px;
 }
 .box-statistic .heading {
   font-size: 36px;
-  color: #041e42;
+  color: #111111;
   font-weight: 700;
   margin-bottom: 20px;
 }
 .box-statistic .subheading {
   font-size: 14px;
   font-weight: 600;
-  color: #46c2ca;
+  color: #e01d3e;
 }
 
 .counter-1 .counter-number {
@@ -2057,7 +2057,7 @@ Back To Top Section
   letter-spacing: -0.5px;
   font-weight: 700;
   font-size: 48px;
-  color: #46c2ca;
+  color: #e01d3e;
 }
 .counter-1 .counter-title {
   display: table-cell;
@@ -2098,7 +2098,7 @@ Back To Top Section
   left: -30px;
   width: 15px;
   height: 15px;
-  background-color: #e36600;
+  background-color: #e01d3e;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
@@ -2106,7 +2106,7 @@ Back To Top Section
 }
 .box-history .item .year-info .heading {
   font-size: 24px;
-  color: #041e42;
+  color: #111111;
   margin-bottom: 20px;
 }
 .box-history .item:after {
@@ -2125,7 +2125,7 @@ Back To Top Section
 .history-2 .timeline__item .year {
   font-size: 6rem;
   font-weight: 700;
-  color: #002e5b;
+  color: #111111;
   letter-spacing: -0.04em;
   margin-top: -15px;
   line-height: normal;
@@ -2154,7 +2154,7 @@ Back To Top Section
   top: 8px;
   width: 9px;
   height: 9px;
-  background: #fde428;
+  background: #e01d3e;
   border-radius: 100%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -2214,7 +2214,7 @@ Back To Top Section
 }
 .box-partner .item .box-info .heading {
   font-size: 24px;
-  color: #041e42;
+  color: #111111;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -2236,7 +2236,7 @@ Back To Top Section
 }
 .panel-faq .panel-default > .panel-heading {
   color: #ffffff;
-  background-color: #041e42;
+  background-color: #111111;
   border-color: #ddd;
   border: 0;
   border-top-left-radius: 0;
@@ -2258,17 +2258,17 @@ Back To Top Section
 }
 .panel-faq .panel-default.active > .panel-heading {
   background-color: #eff3f6;
-  color: #041e42;
+  color: #111111;
 }
 .panel-faq .panel-default.active > .panel-heading:before {
-  color: #041e42;
+  color: #111111;
   content: "\002D";
 }
 .panel-faq .panel-default:hover > .panel-heading {
   color: #e01d3e;
 }
 .panel-faq .panel-default:hover > .panel-heading.active {
-  color: #041e42;
+  color: #111111;
 }
 .panel-faq .panel-title {
   font-size: 16px;
@@ -2341,7 +2341,7 @@ Back To Top Section
 }
 .faq-1 .item .answer:before {
   content: "\f064";
-  color: #46c2ca;
+  color: #e01d3e;
   font-family: FontAwesome;
   position: absolute;
   left: 0;
@@ -2357,12 +2357,12 @@ Back To Top Section
   border-radius: 0;
 }
 .panel-pricing.best .price {
-  background-color: #46c2ca;
+  background-color: #e01d3e;
 }
 .panel-pricing .price {
   padding: 15px 0;
   font-size: 80px;
-  background-color: #041e42;
+  background-color: #111111;
   font-size: 36px;
   color: #fff;
   font-weight: 700;
@@ -2429,7 +2429,7 @@ Back To Top Section
   float: left;
   margin-bottom: 0;
   width: 25%;
-  background: #041e42;
+  background: #111111;
   text-align: center;
 }
 .career-tabs .nav-tabs > li > a {
@@ -2445,7 +2445,7 @@ Back To Top Section
 .career-tabs .nav-tabs > li.active > a,
 .career-tabs .nav-tabs > li.active > a:hover,
 .career-tabs .nav-tabs > li.active > a:focus {
-  color: #041e42;
+  color: #111111;
   cursor: default;
   background-color: #eff3f6;
 }
@@ -2525,7 +2525,7 @@ Back To Top Section
   font-weight: 700;
 }
 .box-news-1 .body .title a {
-  color: #041e42;
+  color: #111111;
 }
 .box-news-1 .body .title a:hover {
   color: #e01d3e;
@@ -2575,7 +2575,7 @@ Back To Top Section
 }
 .box-news-2 .image {
   overflow: hidden;
-  background-color: #041e42;
+  background-color: #111111;
   position: relative;
 }
 .box-news-2 .image img {
@@ -2628,7 +2628,7 @@ Back To Top Section
 }
 .box-news-2 .meta-date {
   margin-top: 10px;
-  color: #041e42;
+  color: #111111;
   font-size: 12px;
   font-style: italic;
 }
@@ -2673,7 +2673,7 @@ Back To Top Section
 .meta-blog > div i,
 .list-news .news-item .meta > div i,
 .single-news .meta > div i {
-  color: #46c2ca;
+  color: #e01d3e;
 }
 .meta-blog .meta-author,
 .list-news .news-item .meta .meta-author,
@@ -2732,7 +2732,7 @@ Back To Top Section
 .list-news .news-item .image {
   position: relative;
   overflow: hidden;
-  background-color: #041e42;
+  background-color: #111111;
 }
 .list-news .news-item .image:before {
   content: "\f0c1";
@@ -2775,7 +2775,7 @@ Back To Top Section
   height: 70px;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
-  background-color: #e36600;
+  background-color: #e01d3e;
   font-size: 26px;
   font-weight: 600;
   color: #fff;
@@ -2810,10 +2810,10 @@ Back To Top Section
   font-weight: 700;
 }
 .list-news .news-item .blok-title a {
-  color: #041e42;
+  color: #111111;
 }
 .list-news .news-item .blok-title a:hover {
-  color: #e36600;
+  color: #e01d3e;
 }
 
 @media (max-width: 1024px) {
@@ -3009,7 +3009,7 @@ Back To Top Section
 }
 .navbar-main .dropdown-menu > li a:hover {
   background-color: #e01d3e;
-  color: #041e42;
+  color: #111111;
 }
 
 /**
@@ -3104,8 +3104,8 @@ Back To Top Section
   text-align: center;
 }
 .slides-navigation a:hover {
-  color: #46c2ca;
-  border-color: #46c2ca;
+  color: #e01d3e;
+  border-color: #e01d3e;
   text-decoration: none;
 }
 .slides-navigation a.prev {
@@ -3242,7 +3242,7 @@ Back To Top Section
   font-size: 20px;
   line-height: normal;
   background-color: #eff3f6;
-  color: #041e42;
+  color: #111111;
   margin-bottom: 60px;
   font-weight: 400;
   font-style: italic;
@@ -3375,7 +3375,7 @@ dl.hiw dd .lead {
   height: 70px;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
-  background-color: #e36600;
+  background-color: #e01d3e;
   font-size: 26px;
   font-weight: 600;
   color: #fff;
@@ -3591,7 +3591,7 @@ dl.hiw dd .lead {
   width: 32px;
   cursor: pointer;
   margin-left: 10px;
-  background-color: #041e42;
+  background-color: #111111;
   background-repeat: no-repeat;
   background-size: 32px 64px;
   background-image: url("../images/cd-icon-controller.svg");
@@ -3635,7 +3635,7 @@ dl.hiw dd .lead {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #041e42;
+  background-color: #111111;
   opacity: 0.9;
 }
 
@@ -3696,7 +3696,7 @@ dl.hiw dd .lead {
   border-radius: 0;
   width: 40px;
   height: 40px;
-  border: 3px solid #041e42;
+  border: 3px solid #111111;
   padding-top: 7px;
 }
 .testimony .owl-controls .owl-nav [class*="owl-"]:hover {
@@ -3730,17 +3730,17 @@ dl.hiw dd .lead {
 
 .subtitle-404 {
   font-size: 2em;
-  color: #46c2ca;
+  color: #e01d3e;
 }
 
 /* 6.12 - Pages */
 .banner-page.pages {
-  background: url("../images/1920x960.jpg") bottom center no-repeat;
+  background: url("../images/slider-2.png") bottom center no-repeat;
 }
 
 /* 6.12 - Contact */
 .banner-page.contact {
-  background: url("../images/1920x960.jpg") bottom center no-repeat;
+  background: url("../images/slider-2.png") bottom center no-repeat;
 }
 
 /**
