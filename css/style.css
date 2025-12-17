@@ -2528,7 +2528,7 @@ Back To Top Section
   color: #041e42;
 }
 .box-news-1 .body .title a:hover {
-  color: #e36600;
+  color: #e01d3e;
 }
 .box-news-1 .body .meta {
   color: #6f6f6f;
@@ -2641,7 +2641,7 @@ Back To Top Section
   overflow: hidden;
 }
 .box-news-2 .blok-title a:hover {
-  color: #e36600;
+  color: #e01d3e;
 }
 
 /* 2.18. LIST NEWS */
@@ -3920,7 +3920,7 @@ dl.hiw dd .lead {
 }
 .list-info li .info-icon {
   display: inline-block;
-  color: #041e42;
+  color: #3a3a3a;
   font-size: 16px;
   float: left;
 }
