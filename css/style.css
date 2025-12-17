@@ -911,7 +911,7 @@ ul.circle li:before {
 }
 
 .bgsection {
-  background: url(../images/1920x960.jpg) bottom center no-repeat;
+  background: url(../images/slider-2.png) bottom center no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -2303,7 +2303,7 @@ Back To Top Section
   list-style: none;
 }
 .faq-list li .fa {
-  color: #e36600;
+  color: #e01d3e;
   font-size: 14px;
   margin-right: 10px;
 }
@@ -2328,7 +2328,7 @@ Back To Top Section
 }
 .faq-1 .item .question:before {
   content: "\f059";
-  color: #e36600;
+  color: #e01d3e;
   font-family: FontAwesome;
   position: absolute;
   left: 0;
@@ -2440,7 +2440,7 @@ Back To Top Section
   font-weight: 700;
 }
 .career-tabs .nav-tabs > li > a:hover {
-  background-color: #46c2ca;
+  background-color: #e01d3e;
 }
 .career-tabs .nav-tabs > li.active > a,
 .career-tabs .nav-tabs > li.active > a:hover,
@@ -2466,7 +2466,7 @@ Back To Top Section
   position: relative;
   z-index: 1;
   overflow: hidden;
-  background-color: #041e42;
+  background-color: #515151;
 }
 .box-news-1 .media img {
   -webkit-transition: 0.4s all linear;
@@ -2498,7 +2498,7 @@ Back To Top Section
   border-bottom: 1px solid #ccc;
 }
 .box-news-1 .body:before {
-  background-color: #e36600;
+  background-color: #e01d3e;
   position: absolute;
   display: block;
   content: "";
@@ -3300,11 +3300,11 @@ dl.hiw dd .lead {
 
 /* 6.2 - Services */
 .banner-page.project {
-  background: url("../images/1920x960.png") bottom center no-repeat;
+  background: url("../images/slider-2.png") bottom center no-repeat;
 }
 
 .section.project {
-  background: url("../images/1920x960.png") bottom center no-repeat;
+  background: url("../images/slider-2.png") bottom center no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
