@@ -1,0 +1,264 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: $font_1;
+	font-size: 14px;
+	line-height: 20px;
+	color: $black_3;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+/* ==========================
+1. General
+============================= */
+a {
+    color: $black_1;
+    text-decoration: none;
+
+    &:hover{
+    	color: $blue_1;
+    	text-decoration: none;
+    }
+}
+
+.pos-relative{
+	position:relative;
+}
+/* Typography */
+
+h1,
+h2,
+h3, 
+h4, 
+h5 {
+	font-family: $font_1;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+h1{
+	font-size: 50px;
+	line-height: normal;
+}
+h2{
+	font-size: 40px;
+	line-height: normal;
+}
+h3{
+	font-size: 24px;
+	line-height: normal;
+}
+h4{
+	font-size: 18px;
+	line-height: normal;
+}
+h5{
+	font-size: 14px;
+	line-height: 22px;
+}
+h6{
+	font-size: 13px;
+}
+strong, b{
+	font-weight: 700;
+}
+
+.lead{
+	font-family:  $font_1;
+	font-weight: 700;
+}
+ol, ul {
+	list-style: initial;
+    margin-left: 24px;	
+
+    li{
+    	margin: 8px 0;
+    }
+}
+.title-heading{
+	color: $blue_1;
+	font-size: 36px;
+	line-height: 50px;
+}
+/* Buttons */
+.btn{
+	font-family:  $font_1;
+	font-size: 14px;
+	color: $white;
+	padding: 15px 35px;
+    border: 0;
+    font-weight: 600;
+	@include border-radius(3);
+}
+.btn-default {
+    background-color: $orange;
+    color: $white;
+	padding: 15px 20px;
+    border: 0;
+	@include border-radius(0);
+}
+.btn-default:hover {
+    background-color: $blue_1;
+}
+.btn-orange-cta {
+    background-color: $orange;
+    color: $white;
+	padding: 15px 20px;
+    border: 0;
+    font-weight: 600;
+	@include border-radius(0);
+	&:hover{
+		background-color: $blue_2;
+		color: $white;
+	}
+}
+.btn-primary {
+    background-color: $orange;
+    @extend .btn;
+	&:hover{
+		background-color: $blue_1;
+		color: $white;
+	}
+}
+.btn-secondary {
+    background-color: $blue_1;
+    @extend .btn;
+	&:hover{
+		background-color: $orange;
+	}
+}
+/* Pagination */
+.pagination{
+	clear: both;
+	text-align: left;
+	margin-top: 20px;
+	a{
+		padding: 15px 20px;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		color: #fff;
+		font-size: 18px;
+		display: inline-block;
+		@include border-radius(2px);
+		background: #f00;
+		background: -moz-linear-gradient(top, #f00 0%, #C92127 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, #f00), color-stop(100%, #C92127));
+		background: -webkit-linear-gradient(top, #f00 0%, #C92127 100%);
+		background: -o-linear-gradient(top, #f00 0%, #C92127 100%);
+		background: -ms-linear-gradient(top, #f00 0%, #C92127 100%);
+		background: linear-gradient(to bottom, #f00 0%, #C92127 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00', endColorstr='#C92127', GradientType=0 );
+		&:hover,
+		&.active{
+			background: #000;
+			color: #fff;
+		}
+	}
+	.active{
+		a{
+			background: #000;
+			color: #fff;
+		}
+	}
+}
+.navbar-brand{
+	padding: 0;
+}
+
+.section {
+	> .container{
+		padding: 50px 0;
+	}
+	&.section-border{
+		> .container{
+			border-bottom: 1px solid #eee;
+		}
+	}
+	&.banner{
+		padding: 0 0;
+	}
+	&.testimony{
+		> .container{
+			padding: 50px 0 0 0;
+		}
+	}
+	&.cta{
+		> .container{
+			padding: 0 0;
+		}
+	}
+	
+}
+
+.section-heading{
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 400;
+	color: $blue_1;
+	&.center{
+		text-align: center;
+	}
+}
+.section-subheading{
+	@extend h5;
+	color: $black_2;
+}
+
+ul.checklist{
+	margin: 0;
+	li{
+		list-style: none;
+		margin: 10px 0 25px 50px;
+		&:before{
+			font-family: $font_icon;
+			content: "\f0c0";
+			font-size: 20px;
+			color: $blue_1;
+		    margin-left: -50px;
+			margin-right: 34px;
+		}
+	}
+}
+
+.grid-services{
+	margin: 30px 0;
+}
+
+dl.hiw{
+	width: 100%;
+	dt{
+		width: 30px;
+		float: left;
+		.fa{
+			font-size: 30px;
+			color: $blue_1;
+		}
+	}
+	dd{
+	    margin-left: 60px;
+		margin-bottom: 40px;
+	}
+}
+
+.user-pic{
+	display: block;
+}
+
+.testimony{
+	.owl-theme .owl-controls{
+		text-align: left;
+		margin-left: 80px;
+		margin-top: 30px;
+	}
+	.owl-theme .owl-dots .owl-dot span{
+	    background: #e7e7e7;
+	}
+	.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+		background: $blue_1;
+	}
+}

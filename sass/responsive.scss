@@ -1,0 +1,181 @@
+@media (max-width: 1024px) {
+	.slides-navigation a.prev{
+		left: -20px;
+	}
+	.slides-navigation a.next{
+		right: -20px;
+	}
+	.testimony .owl-nav .owl-prev {
+	    left: -20px;
+	}
+	.testimony .owl-nav .owl-next {
+	    right: -20px;
+	}
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+	.navbar-toggle{
+		clear: left;
+	    float: right;
+	}
+	.topbar{
+		height: auto;
+	}
+	.topbar-left{
+		text-align: center;
+	}
+	.topbar-right{
+		text-align: center !important;
+	}
+	
+	.topbar-menu,.topbar-sosmed{
+		margin-left: 0;
+	    margin-bottom: 0;
+	}
+	
+
+	.nav > li > a {
+	    padding: 10px 6px;
+	}
+
+	/*.navbar-main .dropdown-menu > li a{
+		color: #333333;
+	}*/
+
+
+	.box-icon-1{
+	
+		.icon{
+		    clear: left;
+		    display: block;
+		    width: 100%;
+		    text-align: center;
+		}
+		.body-content{
+	        text-align: center;
+		    margin-left: 0;
+		}
+	}
+
+	.container-nav .btn-orange-cta{
+	    position: absolute;
+	    right: 10px;
+	    top: 0;
+	}
+
+	.wrap-caption{
+		width: 100%;
+	}
+
+
+	.box-team{
+		.box-image, .body-content{
+			width: 100%;
+		}
+	}
+
+	.btn-sidebar{
+		&.btn, &.btn-primary, &.btn-secondary{
+		    padding: 15px 25px;
+		}
+	}
+	
+
+}
+
+@media (max-width: 479px) {
+
+	.navbar-main{ 
+	    bottom: 0;
+		.navbar-brand{
+			top: 7px;
+			> img{
+				width: 60%
+			}
+		}
+	}
+	.navbar-main .dropdown-menu > li a{
+		color: $black_3;
+	}
+	
+	.contact-info{
+		clear: right;
+	    width: 100%;
+	    display: none;
+		> div{
+			display: block;
+			margin-right: 0px;
+		}
+	}
+	/*.topbar-logo{
+		.btn-cta{
+		    clear: right;
+			position: relative;
+		 	transform: translateY(78px);
+			z-index: 4;
+		}
+	}*/
+
+	.bos-quote{
+		.bos-photo{
+			clear: left;
+		    display: block;
+		    width: auto;
+		    margin-bottom: 20px;
+		}
+		.bos-text{
+			clear: left;
+		    display: block;
+		    margin-left: 0;
+		}
+	}
+
+	// hapus
+	h2, .banner-page .title-page {
+	    font-size: 2em;
+	}
+	.box-partner .item .box-image {
+	    clear: left;
+	    width: auto;
+
+	}
+	.box-partner .item .box-info {
+	    clear: left;
+        width: auto;
+        margin-left: 0;
+	}
+
+	.career-tabs .nav-tabs > li {
+	   width: 100%;
+	   clear: left;
+	}
+	// end hapus
+
+	.nav > li > a {
+	    padding: 10px 25px;
+	}
+	
+	
+	.testimonial-1{
+		.media{
+		    clear: both;
+    		display: block;
+		    max-width: 300px;
+    		margin-bottom: 40px;
+    		margin-right: 0;
+		}
+		.body{
+			clear: both;
+    		display: block;
+		}
+	}
+	.cta {
+		.cta-info{
+		    width: 100%;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+/* ==========================
+x. CTA
+============================= */
+.cta{
+	background-color: $blue_1;
+	padding: 20px 0;
+
+	
+	.cta-desc{
+		font-family: $font_1;
+		color: $white;
+		font-style: italic;
+		font-size: 24px;
+    	line-height: 34px;
+    	font-weight: 400;
+	}
+}
