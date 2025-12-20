@@ -1131,15 +1131,31 @@ Back To Top Section
 }
 
 .loader {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
   margin: -100px 0 0 -100px;
   width: 200px;
   height: 200px;
-  background-image: url("../images/SYNTHEMICA.png");
+  background-image: url("../images/SYNTHEMICA-LOGO.gif");
   background-position: center;
+  background-repeat: no-repeat; */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  /* 🔗 Your GIF link here */
+  background-image: url("../images/SYNTHEMICA-LOGO.gif");
+
   background-repeat: no-repeat;
+  background-position: center;
+
+  /* 🔽 Small size (adjust as needed) */
+  background-size: 200px auto;
+
+  background-color: #ffffff; /* optional */
+  z-index: 9999;
 }
 
 /* 2.2. BUTTONS */
@@ -1288,7 +1304,7 @@ Back To Top Section
 }
 .box-icon-1 .icon {
   display: inline-block;
-  color: #e01d3e ;
+  color: #e01d3e;
   font-size: 36px;
   line-height: 43px;
   float: left;
@@ -3150,22 +3166,22 @@ Back To Top Section
  * -----------------------------------------------------------------------------
  */
 .wrap-caption {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 100%;
-    color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  color: #fff;
 }
 
 .wrap-caption h2,
 .wrap-caption p {
-    text-align: center;
+  text-align: center;
 }
 
 .wrap-caption .btn {
-    margin: 10px 5px;
+  margin: 10px 5px;
 }
 
 /**
@@ -4102,33 +4118,32 @@ dl.hiw dd .lead {
   }
 }
 
-
 /* 9. - SUBSCRIBE BUTTON
  * -----------------------------------------------------------------------------
  */
 .subscribe-row {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* space between input & button */
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between input & button */
 }
 
 .subscribe-input {
-    flex: 1; /* input takes full width */
+  flex: 1; /* input takes full width */
 }
 
 .subscribe-btn {
-    background: #e01d3e;
-    border: none;
-    padding: 10px 16px;
-    border-radius: 50px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 16px;
-    transition: 0.3s;
+  background: #e01d3e;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
 }
 
 .subscribe-btn:hover {
-    background: #464646;
+  background: #464646;
 }
 
 /*# sourceMappingURL=style.css.map */
